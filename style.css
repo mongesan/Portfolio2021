@@ -4,3 +4,10 @@
     border: solid 2px #FFF;
     border-radius: 100%;
 }
+
+canvas{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: -1;
+}
