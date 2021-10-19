@@ -25,7 +25,7 @@ function test() {
             ctx.fillStyle = '#ffffffca';
           }
           ctx.beginPath();
-          ctx.arc(100*j+Math.random()*100, 100*i+Math.random()*100, 0.5+Math.random()*3, 0, 2 * Math.PI);
+          ctx.arc(100*j+Math.random()*100, 100*i+Math.random()*100, 0.5+Math.random()*2.5, 0, 2 * Math.PI);
           ctx.closePath();
           ctx.fill(); 
         }

@@ -1,3 +1,7 @@
+body{
+    background: linear-gradient(#212529, #003c78);
+}
+
 .icon{
     width: 100px;
     height: 100px;
