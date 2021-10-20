@@ -9,13 +9,11 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="icon" href="favicon.ico" />
     <script type="text/javascript" src="script.js"></script>
-    <title>MIZUIRO metamon</title>
+    <title>MIZUIRO metamon | 2021</title>
 </head>
-<body class="d-flex flex-column h-100 text-center text-white vsc-initialized m-0 bg-dark" onload="test()">
+<body class="d-flex flex-column h-100 text-center text-white vsc-initialized m-0 bg-dark">
     <header class="d-flex text-center justify-content-center w-100 align-items-center vh-100 flex-column" data-parallax="scroll"  data-image-src="https://qumeru-media-preview.s3-ap-northeast-1.amazonaws.com/preview/Bootstrap/238/golden-4591457_1920.jpg">
-      <canvas id="sample">
-          
-      </canvas>
+      <canvas id="background"></canvas>
       <div>
             <img src="metamon.jpg" alt="metamon" class="icon bg-white mx-3">
             <img src="test.png" alt="metamon" class="icon bg-white mx-3">
@@ -23,8 +21,13 @@
         <h1>MIZUIRO metamon</h1>
         <p class="m-0" style="font-size: 20px;">HTML/CSS/JS, Python, Django, etc.</p>
         <p class="text-muted m-0"><i class="fas fa-birthday-cake px-1"></i>2006/01/01</p>
+        <div>
+          <a href="https://github.com/mongesan" class="btn btn-sm btn-secondary mx-2" style="background-color: #171515;"><i class="fab fa-github"></i> Github</a>
+          <a href="https://twitter.com/examKirai" class="btn btn-sm btn-primary mx-2" style="background-color: #1DA1F2;"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+        <a href="#main" class="btn btn-sm btn-info position-absolute" style="bottom: 10vh;">See more<br><i class="fas fa-chevron-down"></i></a>
     </header>
-    <main class="w-100 mx-auto">
+    <main class="w-100 mx-auto" id="main">
         <h1>Products</h1>
         <div class="container">
             <div class="row justify-content-lg-around">

@@ -1,10 +1,9 @@
-function test() {
-    //描画コンテキストの取得
-    var canvas = document.getElementById('sample');
+window.onload = function () {
+    const canvas = document.getElementById('background');
     canvas.width = window.screen.width;
     canvas.height = window.screen.height;
     if (canvas.getContext) {
-      var ctx = canvas.getContext('2d');
+      const ctx = canvas.getContext('2d');
       ctx.strokeStyle = '#fff';
       ctx.fillStyle = '#fff';
       ctx.lineWidth = 10;
@@ -32,3 +31,9 @@ function test() {
       }
     }
   }
+
+window.onscroll = function(){
+  const scrollY = window.scrollY
+  const canvas = document.getElementById('background');
+  canvas.style.top = String(scrollY/25-100) + 'px'
+}
