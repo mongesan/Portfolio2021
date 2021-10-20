@@ -15,7 +15,7 @@
     <header class="d-flex text-center justify-content-center w-100 align-items-center vh-100 flex-column" data-parallax="scroll"  data-image-src="https://qumeru-media-preview.s3-ap-northeast-1.amazonaws.com/preview/Bootstrap/238/golden-4591457_1920.jpg">
       <canvas id="background"></canvas>
       <div>
-            <img src="metamon.jpg" alt="metamon" class="icon bg-white mx-3">
+            <!-- <img src="metamon.jpg" alt="metamon" class="icon bg-white mx-3"> -->
             <img src="test.png" alt="metamon" class="icon bg-white mx-3">
         </div>
         <h1>MIZUIRO metamon</h1>
@@ -31,38 +31,45 @@
         <h1>Products</h1>
         <div class="container">
             <div class="row justify-content-lg-around">
+              <div class="col-lg-3 my-3">
+                <div class="card p-0 m-auto text-dark" style="width: 18rem;">
+                    <img src="A.PNG" class="bd-placeholder-img card-img-top border border-2" width="100%" height="180">
+                    <div class="card-body">
+                      <h5 class="card-title">Anaume-App</h5>
+                      <p class="card-text">Djangoを使って作成した、<br>英文記憶用のWEBApp。<br>初めて賞に出してみた。</p>
+                      <a href="https://anaume-app.herokuapp.com/" class="btn btn-light text-light" style="background-color: #6762A6;">Go to HerokuApp</a>
+                      <br>
+                      <a class="small text-muted" href="https://github.com/mongesan/Anaume-app"><i class="fab fa-github"></i>Repository</a>
+                    </div>
+                  </div>
+            </div>
+
                 <div class="col-lg-3 my-3">
                     <div class="card p-0 m-auto text-dark" style="width: 18rem;">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect fill="#868e96" width="100%" height="100%"/></svg>
+                      <img src="B.PNG" class="bd-placeholder-img card-img-top border border-2" width="100%" height="180">
                         <div class="card-body">
                           <h5 class="card-title">Kinotake-BBS</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <p class="card-text">LiT Spring Campで初めて作ったWEBApp。きのこ派とたけのこ派に<br>分かれてレスバができる。<br>RubyとSinatraを使用。</p>
+                          <a class="small text-muted" href="https://github.com/mongesan/LiT-Spring-Camp/tree/main/bbs"><i class="fab fa-github"></i>Repository</a>
                         </div>
                       </div>
                 </div>
-    
+
                 <div class="col-lg-3 my-3">
                     <div class="card p-0 m-auto text-dark" style="width: 18rem;">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect fill="#868e96" width="100%" height="100%"/></svg>
+                        <img src="C.JPG" class="bd-placeholder-img card-img-top border border-2" width="100%" height="180">
                         <div class="card-body">
                           <h5 class="card-title">TaskBox</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <p class="card-text">
+                            初めてのDjango製本格的WEBApp。
+                            課題の進捗を管理できる。<br>
+                            ログインが難しくて実装できなかった。
+                          </p>
+                          <a class="small text-muted" href="https://github.com/mongesan/taskbox"><i class="fab fa-github"></i>Repository</a>
                         </div>
                       </div>
                 </div>
     
-                <div class="col-lg-3 my-3">
-                    <div class="card p-0 m-auto text-dark" style="width: 18rem;">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect fill="#868e96" width="100%" height="100%"/></svg>
-                        <div class="card-body">
-                          <h5 class="card-title">Anaume-App</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                </div>
             </div>
         </div>
         <h1 class="mt-5">History</h1>
@@ -114,8 +121,10 @@
             </div>
         </div>
     </main>
-    <footer class="bg-light w-100 mx-auto mt-5 py-3 text-dark">
+    <footer class="w-100 mx-auto mt-5 py-3">
         Thank you for watching!
+        <br>
+        2021 © MIZUIRO metamon
     </footer>
 </body>
 </html>

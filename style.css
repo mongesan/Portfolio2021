@@ -15,3 +15,9 @@ canvas{
     left:0;
     z-index: -1;
 }
+
+footer{
+    background-color: #fff;
+    color: #000;
+}
+
