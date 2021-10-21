@@ -1,5 +1,6 @@
 body{
     background: linear-gradient(#212529, #003c78);
+    /* font-family: 'M PLUS Rounded 1c', sans-serif; */
 }
 
 .icon{
@@ -9,6 +10,11 @@ body{
     border-radius: 100%;
 }
 
+img{
+    pointer-events: none;
+    user-select: none;
+}
+
 canvas{
     position: fixed;
     top:-100px;
@@ -16,8 +22,22 @@ canvas{
     z-index: -1;
 }
 
+header, h1, h5,footer,span{
+    font-family: 'Comfortaa', cursive;
+    user-select: none;
+}
+
 footer{
     background-color: #fff;
     color: #000;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 5px;
+  }
